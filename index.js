@@ -4,11 +4,13 @@ const express 		= require("express")
 const app			= express()
 
 
+require("dotenv").config()
+
 const hbs			= require("hbs")
 
 const connectDB		= require("./config/db")
 
-require("dotenv").config()
+
 
 
 
