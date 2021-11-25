@@ -1,6 +1,9 @@
-exports.register = async (req,res) => {
 
-	res.send("Estoy en la página de Register")
+
+// ./controllers/usersController.js
+
+exports.profile = async (req,res) => {
+
+	res.render("users/profile")
 
 }
-
